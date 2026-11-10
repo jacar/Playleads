@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://ddht1vg1cfha7"]
+
+[ext_resource type="Script" uid="uid://c531b168reo3d" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://library/lighting/golden-hour/golden_hour.tscn" id="2_light"]
+[ext_resource type="PackedScene" path="res://world/city.tscn" id="3_city"]
+[ext_resource type="Script" uid="uid://d1bvkdlnha4uo" path="res://scripts/player.gd" id="4_player"]
+[ext_resource type="Script" uid="uid://bkxktkh7fm2pn" path="res://scripts/orbit_camera.gd" id="5_cam"]
+[ext_resource type="PackedScene" path="res://art/people/66cdf83d-7f66-413a-afa2-974ce85ab2da/character.tscn" id="6_model"]
+[ext_resource type="Script" uid="uid://tdb8wr1xgu58" path="res://scripts/hud.gd" id="7_hud"]
+[ext_resource type="Script" uid="uid://5ouwpqmehn7x" path="res://scripts/dialogue_flow.gd" id="8_flow"]
+
+[sub_resource type="CapsuleShape3D" id="Capsule_player"]
+radius = 0.32
+height = 1.68
+
+[node name="Main" type="Node3D" unique_id=1329116671]
+script = ExtResource("1_main")
+
+[node name="GoldenHour" parent="." unique_id=91912233 instance=ExtResource("2_light")]
+
+[node name="City" parent="." unique_id=2146363662 instance=ExtResource("3_city")]
+
+[node name="Player" type="CharacterBody3D" parent="." unique_id=1177682716]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -24, 0.18, -5.35)
+script = ExtResource("4_player")
+camera_rig_path = NodePath("../CameraRig")
+
+[node name="Collision" type="CollisionShape3D" parent="Player" unique_id=122850166]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.86, 0)
+shape = SubResource("Capsule_player")
+
+[node name="Model" parent="Player" unique_id=1937862079 instance=ExtResource("6_model")]
+
+[node name="CameraRig" type="Node3D" parent="." unique_id=2074078287]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24, 1.6, -5.35)
+script = ExtResource("5_cam")
+target_path = NodePath("../Player")
+yaw = -1.5708
+pitch = -0.3
+distance = 5.7
+min_distance = 2.3
+max_distance = 9.5
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CameraRig" unique_id=2118659695]
+spring_length = 5.7
+margin = 0.28
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig/SpringArm3D" unique_id=714946307]
+current = true
+fov = 60.0
+near = 0.08
+far = 180.0
+
+[node name="DialogueFlow" type="Node" parent="." unique_id=750764740]
+script = ExtResource("8_flow")
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=528753068]
+script = ExtResource("7_hud")

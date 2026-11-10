@@ -1,0 +1,124 @@
+{
+  "id": "character-66cdf83d-7f66-413a-afa2-974ce85ab2da",
+  "rig": {
+    "path": "res://art/people/66cdf83d-7f66-413a-afa2-974ce85ab2da/rig.glb",
+    "assetId": "66cdf83d-7f66-413a-afa2-974ce85ab2da",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793485145/summer_3d/character_66cdf83d-7f66-413a-afa2-974ce85ab2da_runtime_1793485144484_mnq77w79.glb",
+    "sourceFileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793485134/summer_3d/rig_image-to-3d-ivcwr3-animation-batch_1793485133142_nflohf3e.glb",
+    "artifactFingerprint": "publicId:summer_3d/character_66cdf83d-7f66-413a-afa2-974ce85ab2da_runtime_1793485144484_mnq77w79.glb"
+  },
+  "status": "ready",
+  "version": 2,
+  "provider": {
+    "mode": "managed",
+    "name": "fal",
+    "rigTaskId": "01a1940a-6791-7500-99fc-c50491a8af1f"
+  },
+  "animations": [
+    {
+      "id": "animation-66cdf83d-7f66-413a-afa2-974ce85ab2da-11",
+      "loop": true,
+      "name": "Idle",
+      "path": "res://art/people/66cdf83d-7f66-413a-afa2-974ce85ab2da/rig.glb",
+      "assetId": "682ecb87-10e8-4b99-a954-9a01d473560c",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793485138/summer_animations/animation_image-to-3d-ivcwr3-11_1793485137645_8aoszbme.glb",
+      "actionId": 11,
+      "description": "Idle animation for City Runner.",
+      "semanticRole": "idle",
+      "artifactFingerprint": "assetId:682ecb87-10e8-4b99-a954-9a01d473560c"
+    },
+    {
+      "id": "animation-66cdf83d-7f66-413a-afa2-974ce85ab2da-1",
+      "loop": true,
+      "name": "Walk",
+      "path": "res://art/people/66cdf83d-7f66-413a-afa2-974ce85ab2da/rig.glb",
+      "assetId": "7d69c595-1a2c-4a55-8cef-01c0b29cc8e7",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793485138/summer_animations/animation_image-to-3d-ivcwr3-1_1793485137570_sgiy968p.glb",
+      "actionId": 1,
+      "description": "Walk animation for City Runner.",
+      "semanticRole": "walk",
+      "artifactFingerprint": "assetId:7d69c595-1a2c-4a55-8cef-01c0b29cc8e7"
+    },
+    {
+      "id": "animation-66cdf83d-7f66-413a-afa2-974ce85ab2da-15",
+      "loop": true,
+      "name": "Run",
+      "path": "res://art/people/66cdf83d-7f66-413a-afa2-974ce85ab2da/rig.glb",
+      "assetId": "f1e9fa88-8b03-4565-a914-adec9486bd2c",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793485138/summer_animations/animation_image-to-3d-ivcwr3-15_1793485137587_ihegnlxq.glb",
+      "actionId": 15,
+      "description": "Run animation for City Runner.",
+      "semanticRole": "run",
+      "artifactFingerprint": "assetId:f1e9fa88-8b03-4565-a914-adec9486bd2c"
+    },
+    {
+      "id": "animation-66cdf83d-7f66-413a-afa2-974ce85ab2da-13",
+      "loop": false,
+      "name": "Jump",
+      "path": "res://art/people/66cdf83d-7f66-413a-afa2-974ce85ab2da/rig.glb",
+      "assetId": "8cba6e5a-32e1-48b3-8b0a-6829fb8b7ab6",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793485138/summer_animations/animation_image-to-3d-ivcwr3-13_1793485137609_d5c1pane.glb",
+      "actionId": 13,
+      "description": "Jump animation for City Runner.",
+      "semanticRole": "jump",
+      "artifactFingerprint": "assetId:8cba6e5a-32e1-48b3-8b0a-6829fb8b7ab6"
+    }
+  ],
+  "characterId": "66cdf83d-7f66-413a-afa2-974ce85ab2da",
+  "displayName": "City Runner",
+  "forwardAxis": "-Z",
+  "directoryName": "city_runner_66cdf83d",
+  "runtimeBundle": {
+    "clips": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Jump"
+    ],
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793485145/summer_3d/character_66cdf83d-7f66-413a-afa2-974ce85ab2da_runtime_1793485144484_mnq77w79.glb",
+    "publicId": "summer_3d/character_66cdf83d-7f66-413a-afa2-974ce85ab2da_runtime_1793485144484_mnq77w79.glb",
+    "validation": {
+      "ok": true,
+      "clips": [
+        {
+          "name": "Idle",
+          "channels": 66,
+          "duration": 1.9
+        },
+        {
+          "name": "Walk",
+          "channels": 66,
+          "duration": 1
+        },
+        {
+          "name": "Run",
+          "channels": 66,
+          "duration": 0.833
+        },
+        {
+          "name": "Jump",
+          "channels": 66,
+          "duration": 2.067
+        }
+      ],
+      "errors": [],
+      "sizeBytes": 10910188
+    },
+    "skeletonFingerprint": "1sq6yl"
+  },
+  "rootYawRadians": 3.141592653589793,
+  "unriggedSource": {
+    "assetId": "66cdf83d-7f66-413a-afa2-974ce85ab2da",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793485029/summer_3d/3d_66cdf83d7f66413aafa2974c_1793485028375.glb"
+  },
+  "scaleMultiplier": 1,
+  "sourceForwardAxis": "+Z",
+  "groundOffsetMeters": 0,
+  "targetHeightMeters": 1.8,
+  "skeletonFingerprint": "1sq6yl",
+  "packageRevision": "sha256:81d9fa598bd214d46dd435c367bed4cd555e457ebf3a2f55f718a3d8be570ae4",
+  "normalization": {
+    "targetHeightMeters": 1.8,
+    "forwardAxis": "-Z"
+  }
+}

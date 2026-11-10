@@ -1,0 +1,106 @@
+{
+  "id": "character-2efdeeb8-2874-4697-b833-43f443097048",
+  "rig": {
+    "path": "res://art/people/2efdeeb8-2874-4697-b833-43f443097048/rig.glb",
+    "assetId": "2efdeeb8-2874-4697-b833-43f443097048",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794288931/summer_3d/character_2efdeeb8-2874-4697-b833-43f443097048_runtime_1794288930182_qze8mg5h.glb",
+    "sourceFileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794288921/summer_3d/rig_image-to-3d-acv101-animation-batch_1794288920099_5y63k5ap.glb",
+    "artifactFingerprint": "publicId:summer_3d/character_2efdeeb8-2874-4697-b833-43f443097048_runtime_1794288930182_qze8mg5h.glb"
+  },
+  "status": "ready",
+  "version": 2,
+  "provider": {
+    "mode": "managed",
+    "name": "fal",
+    "rigTaskId": "01a1c3f3-235c-7627-9ca7-ec55111860dd"
+  },
+  "animations": [
+    {
+      "id": "animation-2efdeeb8-2874-4697-b833-43f443097048-11",
+      "loop": true,
+      "name": "Idle",
+      "path": "res://art/people/2efdeeb8-2874-4697-b833-43f443097048/rig.glb",
+      "assetId": "89af92c4-d254-43d5-acc4-e75e4cb725d9",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794288926/summer_animations/animation_image-to-3d-acv101-11_1794288925106_wbl06d73.glb",
+      "actionId": 11,
+      "description": "Idle animation for Subway Runner.",
+      "semanticRole": "idle",
+      "artifactFingerprint": "assetId:89af92c4-d254-43d5-acc4-e75e4cb725d9"
+    },
+    {
+      "id": "animation-2efdeeb8-2874-4697-b833-43f443097048-15",
+      "loop": true,
+      "name": "Run",
+      "path": "res://art/people/2efdeeb8-2874-4697-b833-43f443097048/rig.glb",
+      "assetId": "3d06dea3-ac28-4b86-a44e-3553e3ce72c7",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794288926/summer_animations/animation_image-to-3d-acv101-15_1794288925425_1bjbrtqw.glb",
+      "actionId": 15,
+      "description": "Run animation for Subway Runner.",
+      "semanticRole": "run",
+      "artifactFingerprint": "assetId:3d06dea3-ac28-4b86-a44e-3553e3ce72c7"
+    },
+    {
+      "id": "animation-2efdeeb8-2874-4697-b833-43f443097048-13",
+      "loop": false,
+      "name": "Jump",
+      "path": "res://art/people/2efdeeb8-2874-4697-b833-43f443097048/rig.glb",
+      "assetId": "7021ac8d-ec08-478c-ae7b-99f99e4c9c46",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794288926/summer_animations/animation_image-to-3d-acv101-13_1794288925121_ijr7ax0x.glb",
+      "actionId": 13,
+      "description": "Jump animation for Subway Runner.",
+      "semanticRole": "jump",
+      "artifactFingerprint": "assetId:7021ac8d-ec08-478c-ae7b-99f99e4c9c46"
+    }
+  ],
+  "characterId": "2efdeeb8-2874-4697-b833-43f443097048",
+  "displayName": "Subway Runner",
+  "forwardAxis": "-Z",
+  "directoryName": "subway_runner_2efdeeb8",
+  "runtimeBundle": {
+    "clips": [
+      "Idle",
+      "Run",
+      "Jump"
+    ],
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794288931/summer_3d/character_2efdeeb8-2874-4697-b833-43f443097048_runtime_1794288930182_qze8mg5h.glb",
+    "publicId": "summer_3d/character_2efdeeb8-2874-4697-b833-43f443097048_runtime_1794288930182_qze8mg5h.glb",
+    "validation": {
+      "ok": true,
+      "clips": [
+        {
+          "name": "Idle",
+          "channels": 66,
+          "duration": 1.9
+        },
+        {
+          "name": "Run",
+          "channels": 66,
+          "duration": 0.833
+        },
+        {
+          "name": "Jump",
+          "channels": 66,
+          "duration": 2.067
+        }
+      ],
+      "errors": [],
+      "sizeBytes": 12284028
+    },
+    "skeletonFingerprint": "1rknwru"
+  },
+  "rootYawRadians": 3.141592653589793,
+  "unriggedSource": {
+    "assetId": "2efdeeb8-2874-4697-b833-43f443097048",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794288811/summer_3d/3d_2efdeeb828744697b83343f4_1794288809701.glb"
+  },
+  "scaleMultiplier": 1,
+  "sourceForwardAxis": "+Z",
+  "groundOffsetMeters": 0,
+  "targetHeightMeters": 1.75,
+  "skeletonFingerprint": "1rknwru",
+  "packageRevision": "sha256:ad3135ef03e554bafb7ee3e34b5a7bbf2eff831ff7132c7815deb612788a1d79",
+  "normalization": {
+    "targetHeightMeters": 1.75,
+    "forwardAxis": "-Z"
+  }
+}

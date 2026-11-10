@@ -1,0 +1,124 @@
+{
+  "id": "character-aa4945ef-9ff6-435d-9056-4478d2de9574",
+  "rig": {
+    "path": "res://art/people_extra/aa4945ef-9ff6-435d-9056-4478d2de9574/rig.glb",
+    "assetId": "aa4945ef-9ff6-435d-9056-4478d2de9574",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793858299/summer_3d/character_aa4945ef-9ff6-435d-9056-4478d2de9574_runtime_1793858298092_ew4wg3s7.glb",
+    "sourceFileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793858288/summer_3d/rig_image-to-3d-140t0qg-animation-batch_1793858287556_xow4nlfw.glb",
+    "artifactFingerprint": "publicId:summer_3d/character_aa4945ef-9ff6-435d-9056-4478d2de9574_runtime_1793858298092_ew4wg3s7.glb"
+  },
+  "status": "ready",
+  "version": 2,
+  "provider": {
+    "mode": "managed",
+    "name": "fal",
+    "rigTaskId": "01a1aa48-478a-74af-a90b-dc813cd46337"
+  },
+  "animations": [
+    {
+      "id": "animation-aa4945ef-9ff6-435d-9056-4478d2de9574-11",
+      "loop": true,
+      "name": "Idle",
+      "path": "res://art/people_extra/aa4945ef-9ff6-435d-9056-4478d2de9574/rig.glb",
+      "assetId": "dc9075fb-007a-4c17-85c7-a368c81c7bfb",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793858292/summer_animations/animation_image-to-3d-140t0qg-11_1793858291759_p4oe4i3a.glb",
+      "actionId": 11,
+      "description": "Idle animation for Parkour Hero.",
+      "semanticRole": "idle",
+      "artifactFingerprint": "assetId:dc9075fb-007a-4c17-85c7-a368c81c7bfb"
+    },
+    {
+      "id": "animation-aa4945ef-9ff6-435d-9056-4478d2de9574-1",
+      "loop": true,
+      "name": "Walk",
+      "path": "res://art/people_extra/aa4945ef-9ff6-435d-9056-4478d2de9574/rig.glb",
+      "assetId": "aa5c5d3b-445d-4075-a260-049825fb5997",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793858293/summer_animations/animation_image-to-3d-140t0qg-1_1793858292071_lg3q41xy.glb",
+      "actionId": 1,
+      "description": "Walk animation for Parkour Hero.",
+      "semanticRole": "walk",
+      "artifactFingerprint": "assetId:aa5c5d3b-445d-4075-a260-049825fb5997"
+    },
+    {
+      "id": "animation-aa4945ef-9ff6-435d-9056-4478d2de9574-15",
+      "loop": true,
+      "name": "Run",
+      "path": "res://art/people_extra/aa4945ef-9ff6-435d-9056-4478d2de9574/rig.glb",
+      "assetId": "890e274f-c364-4079-bbc6-9707d580a301",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793858292/summer_animations/animation_image-to-3d-140t0qg-15_1793858291745_mw7mdltq.glb",
+      "actionId": 15,
+      "description": "Run animation for Parkour Hero.",
+      "semanticRole": "run",
+      "artifactFingerprint": "assetId:890e274f-c364-4079-bbc6-9707d580a301"
+    },
+    {
+      "id": "animation-aa4945ef-9ff6-435d-9056-4478d2de9574-13",
+      "loop": false,
+      "name": "Jump",
+      "path": "res://art/people_extra/aa4945ef-9ff6-435d-9056-4478d2de9574/rig.glb",
+      "assetId": "8cbb4424-a8e2-45bc-876a-8d14c48e3e76",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793858292/summer_animations/animation_image-to-3d-140t0qg-13_1793858291640_q24oowc2.glb",
+      "actionId": 13,
+      "description": "Jump animation for Parkour Hero.",
+      "semanticRole": "jump",
+      "artifactFingerprint": "assetId:8cbb4424-a8e2-45bc-876a-8d14c48e3e76"
+    }
+  ],
+  "characterId": "aa4945ef-9ff6-435d-9056-4478d2de9574",
+  "displayName": "Parkour Hero",
+  "forwardAxis": "-Z",
+  "directoryName": "parkour_hero_aa4945ef",
+  "runtimeBundle": {
+    "clips": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Jump"
+    ],
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793858299/summer_3d/character_aa4945ef-9ff6-435d-9056-4478d2de9574_runtime_1793858298092_ew4wg3s7.glb",
+    "publicId": "summer_3d/character_aa4945ef-9ff6-435d-9056-4478d2de9574_runtime_1793858298092_ew4wg3s7.glb",
+    "validation": {
+      "ok": true,
+      "clips": [
+        {
+          "name": "Idle",
+          "channels": 66,
+          "duration": 1.9
+        },
+        {
+          "name": "Walk",
+          "channels": 66,
+          "duration": 1
+        },
+        {
+          "name": "Run",
+          "channels": 66,
+          "duration": 0.833
+        },
+        {
+          "name": "Jump",
+          "channels": 66,
+          "duration": 2.067
+        }
+      ],
+      "errors": [],
+      "sizeBytes": 10823048
+    },
+    "skeletonFingerprint": "vcni06"
+  },
+  "rootYawRadians": 3.141592653589793,
+  "unriggedSource": {
+    "assetId": "aa4945ef-9ff6-435d-9056-4478d2de9574",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793858183/summer_3d/3d_aa4945ef9ff6435d90564478_1793858181808.glb"
+  },
+  "scaleMultiplier": 1,
+  "sourceForwardAxis": "+Z",
+  "groundOffsetMeters": 0,
+  "targetHeightMeters": 1.8,
+  "skeletonFingerprint": "vcni06",
+  "packageRevision": "sha256:c7d03d307fc13ca59ff8b3598a55e7dc68ba78308e9a210c4f5ee93492e07d35",
+  "normalization": {
+    "targetHeightMeters": 1.8,
+    "forwardAxis": "-Z"
+  }
+}

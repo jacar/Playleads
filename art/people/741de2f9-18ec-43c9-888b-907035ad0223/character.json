@@ -1,0 +1,88 @@
+{
+  "id": "character-741de2f9-18ec-43c9-888b-907035ad0223",
+  "rig": {
+    "path": "res://art/people/741de2f9-18ec-43c9-888b-907035ad0223/rig.glb",
+    "assetId": "741de2f9-18ec-43c9-888b-907035ad0223",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793368199/summer_3d/character_741de2f9-18ec-43c9-888b-907035ad0223_runtime_1793368198625_74nkc3on.glb",
+    "sourceFileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793368191/summer_3d/rig_image-to-3d-1a9tryy-animation-batch_1793368190178_44x31677.glb",
+    "artifactFingerprint": "publicId:summer_3d/character_741de2f9-18ec-43c9-888b-907035ad0223_runtime_1793368198625_74nkc3on.glb"
+  },
+  "status": "ready",
+  "version": 2,
+  "provider": {
+    "mode": "managed",
+    "name": "fal",
+    "rigTaskId": "01a18d11-598f-716c-b22f-22bb70220d09"
+  },
+  "animations": [
+    {
+      "id": "animation-741de2f9-18ec-43c9-888b-907035ad0223-11",
+      "loop": true,
+      "name": "Idle",
+      "path": "res://art/people/741de2f9-18ec-43c9-888b-907035ad0223/rig.glb",
+      "assetId": "2c6d3868-3994-41d2-bfc1-6cdc35648cfe",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793368195/summer_animations/animation_image-to-3d-1a9tryy-11_1793368194347_i9iwj73p.glb",
+      "actionId": 11,
+      "description": "Idle animation for Saltwater Pedestrian B.",
+      "semanticRole": "idle",
+      "artifactFingerprint": "assetId:2c6d3868-3994-41d2-bfc1-6cdc35648cfe"
+    },
+    {
+      "id": "animation-741de2f9-18ec-43c9-888b-907035ad0223-1",
+      "loop": true,
+      "name": "Walk",
+      "path": "res://art/people/741de2f9-18ec-43c9-888b-907035ad0223/rig.glb",
+      "assetId": "47c407f8-afbb-42ff-b306-7ba385d1c8ab",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793368195/summer_animations/animation_image-to-3d-1a9tryy-1_1793368194278_7zsx2fgo.glb",
+      "actionId": 1,
+      "description": "Walk animation for Saltwater Pedestrian B.",
+      "semanticRole": "walk",
+      "artifactFingerprint": "assetId:47c407f8-afbb-42ff-b306-7ba385d1c8ab"
+    }
+  ],
+  "characterId": "741de2f9-18ec-43c9-888b-907035ad0223",
+  "displayName": "Saltwater Pedestrian B",
+  "forwardAxis": "-Z",
+  "directoryName": "saltwater_pedestrian_b_741de2f9",
+  "runtimeBundle": {
+    "clips": [
+      "Idle",
+      "Walk"
+    ],
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793368199/summer_3d/character_741de2f9-18ec-43c9-888b-907035ad0223_runtime_1793368198625_74nkc3on.glb",
+    "publicId": "summer_3d/character_741de2f9-18ec-43c9-888b-907035ad0223_runtime_1793368198625_74nkc3on.glb",
+    "validation": {
+      "ok": true,
+      "clips": [
+        {
+          "name": "Idle",
+          "channels": 66,
+          "duration": 1.9
+        },
+        {
+          "name": "Walk",
+          "channels": 66,
+          "duration": 1
+        }
+      ],
+      "errors": [],
+      "sizeBytes": 10889988
+    },
+    "skeletonFingerprint": "p8fz5f"
+  },
+  "rootYawRadians": 3.141592653589793,
+  "unriggedSource": {
+    "assetId": "741de2f9-18ec-43c9-888b-907035ad0223",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1793367852/summer_3d/3d_741de2f918ec43c9888b9070_1793367851489.glb"
+  },
+  "scaleMultiplier": 1,
+  "sourceForwardAxis": "+Z",
+  "groundOffsetMeters": 0,
+  "targetHeightMeters": 1.72,
+  "skeletonFingerprint": "p8fz5f",
+  "packageRevision": "sha256:963c31161b90abc6c09816ecd5a0b5f399dee8362a782daeb2170ab5d8a25c58",
+  "normalization": {
+    "targetHeightMeters": 1.72,
+    "forwardAxis": "-Z"
+  }
+}

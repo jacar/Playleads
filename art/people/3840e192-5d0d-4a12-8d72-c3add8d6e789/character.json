@@ -1,0 +1,124 @@
+{
+  "id": "character-3840e192-5d0d-4a12-8d72-c3add8d6e789",
+  "rig": {
+    "path": "res://art/people/3840e192-5d0d-4a12-8d72-c3add8d6e789/rig.glb",
+    "assetId": "3840e192-5d0d-4a12-8d72-c3add8d6e789",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1789623051/summer_3d/character_3840e192-5d0d-4a12-8d72-c3add8d6e789_runtime_1789623050204_pyea6pn7.glb",
+    "sourceFileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1789623034/summer_3d/rig_image-to-3d-1j0czxr-animation-batch_1789623033805_wtni2fyo.glb",
+    "artifactFingerprint": "publicId:summer_3d/character_3840e192-5d0d-4a12-8d72-c3add8d6e789_runtime_1789623050204_pyea6pn7.glb"
+  },
+  "status": "ready",
+  "version": 2,
+  "provider": {
+    "mode": "managed",
+    "name": "fal",
+    "rigTaskId": "01a0add4-6eb2-76fc-b7c4-3ca63106fed8"
+  },
+  "animations": [
+    {
+      "id": "animation-3840e192-5d0d-4a12-8d72-c3add8d6e789-11",
+      "loop": true,
+      "name": "Idle",
+      "path": "res://art/people/3840e192-5d0d-4a12-8d72-c3add8d6e789/rig.glb",
+      "assetId": "f3efb4e1-2c00-4f36-a6d0-db71d5ddbae1",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1789623039/summer_animations/animation_image-to-3d-1j0czxr-11_1789623038412_7iug9lws.glb",
+      "actionId": 11,
+      "description": "Idle animation for BALADNA - Adel.",
+      "semanticRole": "idle",
+      "artifactFingerprint": "assetId:f3efb4e1-2c00-4f36-a6d0-db71d5ddbae1"
+    },
+    {
+      "id": "animation-3840e192-5d0d-4a12-8d72-c3add8d6e789-1",
+      "loop": true,
+      "name": "Walk",
+      "path": "res://art/people/3840e192-5d0d-4a12-8d72-c3add8d6e789/rig.glb",
+      "assetId": "b04b5b6b-8468-4650-9847-cbd86d59cae9",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1789623039/summer_animations/animation_image-to-3d-1j0czxr-1_1789623038502_97o024jy.glb",
+      "actionId": 1,
+      "description": "Walk animation for BALADNA - Adel.",
+      "semanticRole": "walk",
+      "artifactFingerprint": "assetId:b04b5b6b-8468-4650-9847-cbd86d59cae9"
+    },
+    {
+      "id": "animation-3840e192-5d0d-4a12-8d72-c3add8d6e789-15",
+      "loop": true,
+      "name": "Run",
+      "path": "res://art/people/3840e192-5d0d-4a12-8d72-c3add8d6e789/rig.glb",
+      "assetId": "49d7946a-fec3-4e46-bc51-0ea280e5dad5",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1789623039/summer_animations/animation_image-to-3d-1j0czxr-15_1789623038354_lbshkk5t.glb",
+      "actionId": 15,
+      "description": "Run animation for BALADNA - Adel.",
+      "semanticRole": "run",
+      "artifactFingerprint": "assetId:49d7946a-fec3-4e46-bc51-0ea280e5dad5"
+    },
+    {
+      "id": "animation-3840e192-5d0d-4a12-8d72-c3add8d6e789-13",
+      "loop": false,
+      "name": "Jump",
+      "path": "res://art/people/3840e192-5d0d-4a12-8d72-c3add8d6e789/rig.glb",
+      "assetId": "8c81099c-3ff3-4b64-90fc-490a2e46df49",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1789623039/summer_animations/animation_image-to-3d-1j0czxr-13_1789623038382_g8ywwraj.glb",
+      "actionId": 13,
+      "description": "Jump animation for BALADNA - Adel.",
+      "semanticRole": "jump",
+      "artifactFingerprint": "assetId:8c81099c-3ff3-4b64-90fc-490a2e46df49"
+    }
+  ],
+  "characterId": "3840e192-5d0d-4a12-8d72-c3add8d6e789",
+  "displayName": "BALADNA - Adel",
+  "forwardAxis": "-Z",
+  "directoryName": "baladna_adel_3840e192",
+  "runtimeBundle": {
+    "clips": [
+      "Idle",
+      "Walk",
+      "Run",
+      "Jump"
+    ],
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1789623051/summer_3d/character_3840e192-5d0d-4a12-8d72-c3add8d6e789_runtime_1789623050204_pyea6pn7.glb",
+    "publicId": "summer_3d/character_3840e192-5d0d-4a12-8d72-c3add8d6e789_runtime_1789623050204_pyea6pn7.glb",
+    "validation": {
+      "ok": true,
+      "clips": [
+        {
+          "name": "Idle",
+          "channels": 72,
+          "duration": 2.367
+        },
+        {
+          "name": "Walk",
+          "channels": 72,
+          "duration": 1
+        },
+        {
+          "name": "Run",
+          "channels": 72,
+          "duration": 0.833
+        },
+        {
+          "name": "Jump",
+          "channels": 72,
+          "duration": 2.1
+        }
+      ],
+      "errors": [],
+      "sizeBytes": 9220740
+    },
+    "skeletonFingerprint": "6n00g8"
+  },
+  "rootYawRadians": 3.141592653589793,
+  "unriggedSource": {
+    "assetId": "3840e192-5d0d-4a12-8d72-c3add8d6e789",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1789622693/summer_3d/3d_3840e1925d0d4a128d72c3ad_1789622691780.glb"
+  },
+  "scaleMultiplier": 1,
+  "sourceForwardAxis": "+Z",
+  "groundOffsetMeters": 0,
+  "targetHeightMeters": 1.66,
+  "skeletonFingerprint": "6n00g8",
+  "packageRevision": "sha256:bbde23d92d8f7b136f31212dbcf36def7df689dcf290eb610d596b03dd88f38b",
+  "normalization": {
+    "targetHeightMeters": 1.66,
+    "forwardAxis": "-Z"
+  }
+}

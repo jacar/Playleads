@@ -1,0 +1,106 @@
+{
+  "id": "character-32650f14-c4a5-40c7-9ac8-d9fcfe93c180",
+  "rig": {
+    "path": "res://art/people/32650f14-c4a5-40c7-9ac8-d9fcfe93c180/rig.glb",
+    "assetId": "32650f14-c4a5-40c7-9ac8-d9fcfe93c180",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794080465/summer_3d/character_32650f14-c4a5-40c7-9ac8-d9fcfe93c180_runtime_1794080463889_90nz950e.glb",
+    "sourceFileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794080455/summer_3d/rig_image-to-3d-1tzrwpl-animation-batch_1794080454531_vlorh8dx.glb",
+    "artifactFingerprint": "publicId:summer_3d/character_32650f14-c4a5-40c7-9ac8-d9fcfe93c180_runtime_1794080463889_90nz950e.glb"
+  },
+  "status": "ready",
+  "version": 2,
+  "provider": {
+    "mode": "managed",
+    "name": "fal",
+    "rigTaskId": "01a1b782-8314-777c-b2cb-f7ed9d99d1aa"
+  },
+  "animations": [
+    {
+      "id": "animation-32650f14-c4a5-40c7-9ac8-d9fcfe93c180-11",
+      "loop": true,
+      "name": "Idle",
+      "path": "res://art/people/32650f14-c4a5-40c7-9ac8-d9fcfe93c180/rig.glb",
+      "assetId": "d521548d-b046-4e8f-85d1-d18ceb15e49d",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794080459/summer_animations/animation_image-to-3d-1tzrwpl-11_1794080458182_04kdpb2u.glb",
+      "actionId": 11,
+      "description": "Idle animation for Mystic Falls Woman.",
+      "semanticRole": "idle",
+      "artifactFingerprint": "assetId:d521548d-b046-4e8f-85d1-d18ceb15e49d"
+    },
+    {
+      "id": "animation-32650f14-c4a5-40c7-9ac8-d9fcfe93c180-1",
+      "loop": true,
+      "name": "Walk",
+      "path": "res://art/people/32650f14-c4a5-40c7-9ac8-d9fcfe93c180/rig.glb",
+      "assetId": "d723523c-1b5d-4da5-9ca3-d87d3e83035b",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794080459/summer_animations/animation_image-to-3d-1tzrwpl-1_1794080458048_945iujpy.glb",
+      "actionId": 1,
+      "description": "Walk animation for Mystic Falls Woman.",
+      "semanticRole": "walk",
+      "artifactFingerprint": "assetId:d723523c-1b5d-4da5-9ca3-d87d3e83035b"
+    },
+    {
+      "id": "animation-32650f14-c4a5-40c7-9ac8-d9fcfe93c180-15",
+      "loop": true,
+      "name": "Run",
+      "path": "res://art/people/32650f14-c4a5-40c7-9ac8-d9fcfe93c180/rig.glb",
+      "assetId": "bc95b9d8-4f0a-4b1a-9831-0ac2a96cac51",
+      "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794080459/summer_animations/animation_image-to-3d-1tzrwpl-15_1794080458110_e5wkgl85.glb",
+      "actionId": 15,
+      "description": "Run animation for Mystic Falls Woman.",
+      "semanticRole": "run",
+      "artifactFingerprint": "assetId:bc95b9d8-4f0a-4b1a-9831-0ac2a96cac51"
+    }
+  ],
+  "characterId": "32650f14-c4a5-40c7-9ac8-d9fcfe93c180",
+  "displayName": "Mystic Falls Woman",
+  "forwardAxis": "-Z",
+  "directoryName": "mystic_falls_woman_32650f14",
+  "runtimeBundle": {
+    "clips": [
+      "Idle",
+      "Walk",
+      "Run"
+    ],
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794080465/summer_3d/character_32650f14-c4a5-40c7-9ac8-d9fcfe93c180_runtime_1794080463889_90nz950e.glb",
+    "publicId": "summer_3d/character_32650f14-c4a5-40c7-9ac8-d9fcfe93c180_runtime_1794080463889_90nz950e.glb",
+    "validation": {
+      "ok": true,
+      "clips": [
+        {
+          "name": "Idle",
+          "channels": 66,
+          "duration": 1.9
+        },
+        {
+          "name": "Walk",
+          "channels": 66,
+          "duration": 1
+        },
+        {
+          "name": "Run",
+          "channels": 66,
+          "duration": 0.833
+        }
+      ],
+      "errors": [],
+      "sizeBytes": 13357556
+    },
+    "skeletonFingerprint": "t9kgsf"
+  },
+  "rootYawRadians": 3.141592653589793,
+  "unriggedSource": {
+    "assetId": "32650f14-c4a5-40c7-9ac8-d9fcfe93c180",
+    "fileUrl": "https://res.cloudinary.com/dol86wsz1/raw/upload/v1794080007/summer_3d/3d_32650f14c4a540c79ac8d9fc_1794080006700.glb"
+  },
+  "scaleMultiplier": 1,
+  "sourceForwardAxis": "+Z",
+  "groundOffsetMeters": 0,
+  "targetHeightMeters": 1.68,
+  "skeletonFingerprint": "t9kgsf",
+  "packageRevision": "sha256:c17422188ced538f2ca956fabc7ccff2d9407458954deca868a7acf07682fd4c",
+  "normalization": {
+    "targetHeightMeters": 1.68,
+    "forwardAxis": "-Z"
+  }
+}
